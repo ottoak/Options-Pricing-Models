@@ -1,12 +1,12 @@
 ## Options Models
 This folder contains the files that define the classes to build the simulations. Bionmial_Models contain simple implementations of American and European put and call pricing models, with the following inputs:
 
-S0: Initial stock price
-K: Strike Price
-N: Number of periods
-R: Interest rate
-u: Proportion the stock will move up at any given node in the binomial model (proportion it will move down is 1/u
-Type: call or put
+S0: Initial stock price\n
+K: Strike Price\n
+N: Number of periods\n
+R: Interest rate\n
+u: Proportion the stock will move up at any given node in the binomial model (proportion it will move down is 1/u\n
+Type: call or put\n
 
 BS_Binomial_Models contains variants that use parameters from the black scholes equation (and allows for dividends):
 
