@@ -24,4 +24,4 @@ BS_Binomial_Models contains variants that use parameters from the black scholes 
 
  - c: dividend yield
 
-Otherwise, both work the same. fill_praces creates the stock price lattice, and fill_values works backwards from the end to compute the fair value of the option at each node. The value at the first node is the option prive given the current stock price S0 and strike price K.
+Otherwise, both work the same. fill_prices creates the stock price lattice, and fill_values works backwards from the end to compute the fair value of the option at each node. The value at the first node is the option prive given the current stock price S0 and strike price K.
